@@ -35,3 +35,16 @@ footer {
     background: #35424a;
     color: #ffffff;
 }
+
+/* Make homepage links (in .home-links) use blue text */
+.home-links a {
+    color: #1a73e8;
+}
+.home-links a:visited {
+    color: #1a73e8;
+}
+.home-links a:hover,
+.home-links a:focus {
+    color: #1a73e8;
+    text-decoration: underline;
+}
